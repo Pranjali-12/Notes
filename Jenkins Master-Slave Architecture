@@ -1,0 +1,14 @@
+Exp 6
+Jenkins Master-Slave Architecture
+
+Go to your Jenkins account
+Click on manage Jenkins
+Go to manage nodes and clouds
+Click on New node
+Select Permanent agent
+Click on create
+Add description,root directory(e.g./home/pranjali),labels and also custom directory (same as root)
+Select use websocket?
+And click on save
+Then go to that node
+And run commands in terminal
