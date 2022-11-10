@@ -1,0 +1,24 @@
+Exp 2
+Git Operations
+
+sudo apt-get install git
+git config -- global user.name .........
+Similarly for email
+Create repository in your github account
+Make folder(same name) for that repository using terminal 
+cd new_ folder
+git init
+git remote add origin  ....site of new repository......
+create file in new folder directory by using 
+cat > filename
+git add . (To add file)
+git commit -m ........
+git push origin master
+Then write username and password
+If there is an error generate token through your github account and placed in your password field
+
+To apply second commit
+gedit filename
+git add .
+git commit -m second
+git push origin master
